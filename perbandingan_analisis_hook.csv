@@ -1,0 +1,6 @@
+Kriteria,Metode Python (Manual/Kualitatif),Metode Gemini AI (Otomatis/Kuantitatif)
+Akurasi & Relevansi,"Tinggi Sekali. Berdasarkan pemahaman manusia (Anda) tentang nuansa, kontroversi, dan sensitivitas lokal yang spesifik.","Tinggi, tetapi Umum. Bergantung pada model bahasa yang dilatih untuk memahami shock value dan sentimen, mungkin melewatkan konteks lokal yang sangat spesifik."
+Sensitivitas Kriteria,"Maksimum. Dapat mengatur skor 5 hanya untuk topik tertentu (misalnya, 'KSP' atau 'Kodari' yang baru dibahas) dan memastikan durasi minimal 15 detik.","Cukup Tinggi. Model dapat mengekstraksi kalimat emosional, tetapi penyesuaian durasi dan skor memerlukan instruksi yang sangat spesifik dan berulang."
+Fleksibilitas (Adaptasi Topik),Sangat Fleksibel. Cukup ganti data input (data_hook) tanpa mengubah logika kode.,"Sangat Fleksibel. Cukup ganti prompt (perintah) untuk menyesuaikan topik, tetapi hasil formatnya harus diolah lagi."
+Kecepatan,Lambat di Awal. Membutuhkan waktu Anda untuk menonton/membaca transkrip dan memilih segmen secara manual.,Sangat Cepat. Menghasilkan hasil instan dari transkrip yang diberikan.
+Format Output,"Sempurna. Menghasilkan file .docx siap pakai, rapi, dan terstruktur sesuai keinginan Anda, tanpa perlu salin-tempel.","Mentah. Hasil berupa teks yang harus disalin, ditempel, dan diformat ulang ke dalam Word atau Excel."

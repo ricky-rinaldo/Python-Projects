@@ -1,0 +1,15 @@
+# Kekuasaan yang Tak Rela Turun
+ffmpeg -i input_video.mp4 -ss 00:02:25 -to 00:03:10 -c copy output_01_kekuasaan_yang_tak_rela_turun.mp4
+
+# Jokowi Kertas Putih
+ffmpeg -i input_video.mp4 -ss 00:04:05 -to 00:04:45 -c copy output_02_jokowi_kertas_putih.mp4
+
+# Politik adalah Seni Melupakan
+ffmpeg -i input_video.mp4 -ss 00:05:18 -to 00:05:50 -c copy output_03_politik_adalah_seni_melupakan.mp4
+
+# Prabowo dan Dinasti Politik
+ffmpeg -i input_video.mp4 -ss 00:07:40 -to 00:08:25 -c copy output_04_prabowo_dan_dinasti_politik.mp4
+
+# Sindiran untuk Elite Berpindah Haluan
+ffmpeg -i input_video.mp4 -ss 00:10:32 -to 00:11:05 -c copy output_05_sindiran_untuk_elite_berpindah_haluan.mp4
+

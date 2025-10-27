@@ -1,0 +1,26 @@
+[
+    {
+        "nama": "Ricky",
+        "umur": 44,
+        "gender": "Laki-laki",
+        "lahir": "Jakarta"
+    },
+    {
+        "nama": "Sarie",
+        "umur": 37,
+        "gender": "Perempuan",
+        "lahir": "Cimahi"
+    },
+    {
+        "nama": "Rayyan",
+        "umur": 10,
+        "gender": "Laki-laki",
+        "lahir": "Cimahi"
+    },
+    {
+        "nama": "Athalla",
+        "umur": 7,
+        "gender": "Laki-laki",
+        "lahir": "Cimahi"
+    }
+]
