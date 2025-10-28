@@ -1,0 +1,72 @@
+
+cars = [
+    {
+    'CODE': '1',
+    'BRAND':'Accura',
+    'TYPE': 'CL',
+    'YEAR': '1997'},
+    {
+    'CODE': '2',
+    'BRAND':'Subaru',
+    'TYPE': 'Forester',
+    'YEAR': '2006'},
+    {
+    'CODE': '3',
+    'BRAND':'Lincoln',
+    'TYPE': 'Navigator',
+    'YEAR': '2010'},
+    {
+    'CODE' : '4',
+    'BRAND':'Chevrolet',
+    'TYPE' : 'Express 1500',
+    'YEAR' : '2001'},
+    {
+    'CODE': '5',
+    'BRAND':'Mitsubishi',
+    'TYPE': 'Starion',
+    'YEAR': '1987'},
+]
+
+berulang = True
+
+while True:
+
+    user = input ('\nSort By (CODE / BRAND / TYPE / YEAR / ALL) : ').upper()
+    print ()
+
+    if user == 'CODE':
+        print(f"\n{'CODE':<4} {'YEAR':<6} {'BRAND':<10} {'TYPE':<14}")
+        print('=' * 43)
+        for car in cars:
+            print(f"{car['CODE']:<4} {car['YEAR']:<6} {car['BRAND']:<10} {car['TYPE']:<14}")
+
+    elif user == 'BRAND':
+        print(f"\n{'BRAND':<12} {'TYPE':<14} {'YEAR':<15}")
+        print ('='*43)
+        for car in cars:
+            print(f"{car['BRAND']:<12} {car['TYPE']:<14} {car['YEAR']:<15}")
+
+    elif user == 'TYPE':
+        print (f"{'TYPE':<14} {'BRAND':<12} {'YEAR':<15}")
+        print ('='*43)
+        for car in cars:
+            print (f"{car['TYPE']:<14} {car['BRAND']:<12} {car['YEAR']:<15}")
+
+    elif user == 'YEAR':
+        print (f"{'YEAR':<6} {'BRAND':<12} {'TYPE':<14}")
+        print ('='*43)
+        for car in cars:
+            print (f"{car['YEAR']:<6} {car['BRAND']:<12} {car['TYPE']:<14}")
+    elif user == "ALL":
+        print ('='*43)
+        for car in cars:
+            for key, values in car.items():
+                print(f"{key:<6} {values}")
+                if key == 'YEAR':
+                    print()
+
+    lanjut = input ('\nLanjut Sort (y/n) : ')
+    if lanjut.lower() == 'n':
+        berulang=False
+        print ('\n======Program SORT Berhenti======')
+        break
