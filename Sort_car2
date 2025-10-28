@@ -1,0 +1,54 @@
+
+cars = [
+    {
+    'Code': '1',
+    'Brand': 'Accura',
+    'Type': 'CL',
+    'Year': '1997'},
+    {
+    'Code': '2',
+    'Brand': 'Subaru',
+    'Type': 'Forester',
+    'Year': '2006'},
+    {
+    'Code': '3',
+    'Brand': 'Lincoln',
+    'Type': 'Navigator',
+    'Year': '2010'},
+    {
+    'Code': '4',
+    'Brand': 'Chevrolet',
+    'Type': 'Express 1500',
+    'Year': '2001'},
+    {
+    'Code': '5',
+    'Brand': 'Mitsubishi',
+    'Type': 'Starion',
+    'Year': '1987'},
+]
+berulang = True
+while berulang == True:
+    print ('')
+    user = input("Pilih Code 1 s/d 5 atau Pilih 6 untuk tampil semua : ")
+
+    for car in cars:
+        if user == car['Code']:
+            print ('Brand :', car['Brand'])
+            print ('Type  :', car['Type'])
+            print ('Year  :', car['Year'])
+            break
+
+        elif user == '6':
+            print('brand :', car['Brand'])
+            print('type  :', car['Type'])
+            print('year  :', car['Year'])
+            print(' ')
+
+        elif car['Code'] != user:
+            continue
+            print ('Code tidak sesuai')
+
+    lanjut = input ('\nLanjut input Code (y/n) : ').lower()
+    if lanjut == 'n':
+        berulang = False
+        print ('\nPROSES INPUT BERHENTI')
